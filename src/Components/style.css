@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(209, 204, 204);
+}
+
+.templateContainer {
+    background-color: lightgrey;
+}
+
+.templateContainer > .searchInput_Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.templateContainer > .searchInput_Container input {
+    width: 63%;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.templateContainer .template_Container {
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.templateContainer .template_Container .template {
+    background-color: white;
+    margin: 10px;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+.templateContainer .template_Container .template img {
+    height: 100px;
+}
+
+.templateGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.addToCartBttn {
+    background-color: rgb(98, 84, 243);
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.cartContainer {
+    padding: 20px;
+    background-color: purple;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    width: 50%;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .templateContainer {
+        margin: 2% 0;
+    }
+
+    .cartContainer {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .templateContainer > .searchInput_Container input {
+        width: 100%;
+    }
+
+    .templateContainer .template_Container {
+        flex-direction: column;
+    }
+
+    .templateContainer .template_Container .template {
+        margin: 10px 0;
+    }
+
+    .templateGrid {
+        grid-template-columns: repeat(2, 1fr); /* Display 2 items per row on smaller screens */
+    }
+
+    .templateContainer .template_Container .template img {
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+    .cartContainer {
+        padding: 5px;
+        margin: 2px;
+    }
+}

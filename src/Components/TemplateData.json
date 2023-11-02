@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/d/e/dell_g15_5515_amd_rayzen_7_16gb_ram_512gb_ssd_15.6-inch_gaming_laptop_1.jpg",
+        "title": "Gaming Laptop",
+        "price": 335
+    },
+    {
+        "id": 2,
+        "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+        "title": "Macbook M1 Air",
+        "price": 450
+    },
+    {
+        "id": 3,
+        "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps5_b2.jpg",
+        "title": "PlayStation 5 Console",
+        "price": 200
+    },
+    {
+        "id": 4,
+        "image": "https://cdn.media.amplience.net/s/xcite/541119-SET?img404=default&w=640&qlt=75&fmt=auto",
+        "title": "Smartphone",
+        "price": 300
+    },
+    {
+        "id": 5,
+        "image": "https://cdn.media.amplience.net/s/xcite/536107-SET?img404=default&w=640&qlt=75&fmt=auto",
+        "title": "Wireless Headphones",
+        "price": 300
+    },
+    {
+        "id": 6,
+        "image": "https://cdn.media.amplience.net/s/xcite/529226-SET?img404=default&w=640&qlt=75&fmt=auto",
+        "title": "4K Ultra HD TV",
+        "price": 600
+    },
+    {
+        "id": 7,
+        "image": "https://cdn.media.amplience.net/s/xcite/517369-SET?img404=default&w=640&qlt=75&fmt=auto",
+        "title": "Digital Camera",
+        "price": 250
+    },
+    {
+        "id": 8,
+        "image": "https://cdn.media.amplience.net/s/xcite/539087-SET?img404=default&w=640&qlt=75&fmt=auto",
+        "title": "Smartwatch",
+        "price": 150
+    },
+    {
+        "id": 9,
+        "image": "https://cdn.media.amplience.net/s/xcite/543620-SET?img404=default&w=640&qlt=75&fmt=auto",
+        "title": "Gaming Console",
+        "price": 350
+    },
+    {
+        "id": 10,
+        "image": "https://cdn.media.amplience.net/s/xcite/651801-SET?img404=default&w=640&qlt=75&fmt=auto",
+        "title": "Wireless Router",
+        "price": 50
+    },
+    {
+        "id": 11,
+        "image": "https://cdn.media.amplience.net/s/xcite/543580-SET?img404=default&w=640&qlt=75&fmt=auto",
+        "title": "Tablet",
+        "price": 200
+    },
+    {
+        "id": 12,
+        "image": "https://cdn.media.amplience.net/s/xcite/542300-SET?img404=default&w=640&qlt=75&fmt=auto",
+        "title": "Desktop Computer",
+        "price": 700
+    },
+    {
+        "id": 13,
+        "image": "https://cdn.media.amplience.net/s/xcite/537872-SET?img404=default&w=640&qlt=75&fmt=auto",
+        "title": "External Hard Drive",
+        "price": 100
+    },
+    {
+        "id": 14,
+        "image": "https://cdn.media.amplience.net/s/xcite/538632-SET?img404=default&w=640&qlt=75&fmt=auto",
+        "title": "Bluetooth Speaker",
+        "price": 450
+    },
+    {
+
+    "id": 15,
+        "image": "https://cdn.media.amplience.net/s/xcite/535762-SET?img404=default&w=640&qlt=75&fmt=auto",
+        "title": "Cables",
+        "price": 240
+    }
+
+]

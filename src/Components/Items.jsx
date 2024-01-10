@@ -48,6 +48,8 @@ function Items() {
                     <img src={val.image} alt="" />
                     <h3>{val.title}</h3>
                     <p className="price">${val.price}</p>
+
+                    
                     <button className="addToCartBttn" onClick={() => addToCart(val)}>
                       Add To Cart 
                     </button>

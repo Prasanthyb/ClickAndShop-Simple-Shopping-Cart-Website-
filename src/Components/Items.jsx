@@ -3,7 +3,6 @@ import './style.css';
 import data from "./TemplateData.json";
 import { ShoppingCart } from "phosphor-react";
 
-
 function Items() {
   const [searchTerm, setSearchTerm] = useState("");
   const [cartItems, setCartItems] = useState([]); // Initialize an empty array for the cart items
@@ -11,6 +10,15 @@ function Items() {
   // Function to handle adding items to the cart
   const addToCart = (item) => {
     setCartItems((prevCart) => [...prevCart, item]);
+  };
+
+  // Function to handle removing items from the cart
+  const removeFromCart = (index) => {
+    setCartItems((prevCart) => {
+      const updatedCart = [...prevCart];
+      updatedCart.splice(index, 1);
+      return updatedCart;
+    });
   };
   
   const totalCost = cartItems.reduce((total, item) => total + item.price, 0);
@@ -45,11 +53,10 @@ function Items() {
               .map((val) => {
                 return (
                   <div className="template" key={val.id}>
-                    <img src={val.image} alt="" />
+                   <img src={val.image} alt="" onError={(e) => e.target.src = 'fallback-image.jpg'} />
+ 
                     <h3>{val.title}</h3>
                     <p className="price">${val.price}</p>
-
-                    
                     <button className="addToCartBttn" onClick={() => addToCart(val)}>
                       Add To Cart 
                     </button>
@@ -63,11 +70,15 @@ function Items() {
       {/* Display the items in the cart on the same page */}
       <div className="cartContainer">
         <ShoppingCart size={50}  />Total Cost: ${totalCost}
-        <ul style={{ listStyleType: 'none' ,textAlign: 'left'  }}>
+        <ul style={{ listStyleType: 'none', textAlign: 'left' }}>
           {cartItems.map((item, index) => (
-            <li key={index}>{index+1} {item.title}</li>
+            <li key={index}>
+              {index + 1} {item.title} 
+              <button onClick={() => removeFromCart(index)}>
+                Remove
+              </button>
+            </li>
           ))}
-          
         </ul>
       </div>
     </>
